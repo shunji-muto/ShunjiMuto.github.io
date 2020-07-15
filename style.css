@@ -23,19 +23,20 @@
 .cp_navi #cp_sidenav a:hover {
 	left: -10px;
 }
+
 .cp_navi #home {
 	top: 20px;
 	background-color: #da3c41;
 }
-.cp_navi #news {
+.cp_navi #about {
 	top: 80px;
+	background-color: #a62e7a;
+}
+.cp_navi #news {
+	top: 140px;
 	background-color: #1b2538;
 }
 .cp_navi #contact {
-	top: 140px;
-	background-color: #2e9b72;
-}
-.cp_navi #about {
 	top: 200px;
-	background-color: #a62e7a;
+	background-color: #2e9b72;
 }
