@@ -1,5 +1,37 @@
-.sticky {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 10px;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top:0;
+  width:100%;
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  padding: 14px 50px;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+nav li:last-child a{
+  border-right: none;
+}
+
+.active{
+  background-color: darkgreen;
 }
