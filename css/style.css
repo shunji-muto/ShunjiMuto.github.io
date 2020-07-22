@@ -35,3 +35,15 @@ nav li:last-child a{
 .active{
   background-color: darkgreen;
 }
+
+section.border_top{
+  border-top-style: solid;
+}
+
+section.border_bottom{
+  border-bottom-style:solid;
+}
+
+section.center{
+  text-align: center;
+}
