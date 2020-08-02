@@ -47,3 +47,23 @@ section.border_bottom{
 section.center{
   text-align: center;
 }
+
+span{
+  display:inline-block;
+  width: 5em;
+}
+
+.box11{
+  width : 80%;
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  color: #5d627b;
+  background: white;
+  border-top: solid 5px #000000;
+  /* border-top: solid 5px #5d627b; */
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+}
+.box11 p {
+  margin: 0; 
+  padding: 0;
+}
