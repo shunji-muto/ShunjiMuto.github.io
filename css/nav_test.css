@@ -16,6 +16,8 @@
     height: 100%;
     display: flex;
     margin: 0 -20px;
+
+    border: solid rgb(255, 0, 0);
 }
 
 
@@ -23,6 +25,8 @@
     flex: 1 1;
     position: relative;
     display: flex;
+
+    border: solid rgb(0, 255, 0);
 }
 
 .gnavi li::after{
