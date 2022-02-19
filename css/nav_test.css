@@ -60,9 +60,9 @@
     content: "";
     position: absolute;
     display: block;
-    height: 4px;
+    height: 10px;
     width: 100%;
-    bottom: 0;
+    bottom: 0px;
     background-color: #ff7600;
     border-radius: 5px;
 }

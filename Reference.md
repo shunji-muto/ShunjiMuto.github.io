@@ -16,7 +16,21 @@ http://shiru-web.com/2017/06/26/01-62/
 - after要素の位置調整
 https://h2ham.net/add-icon-after-and-middle/
 
-# NEXT
+- ロゴだけをgナビの左側に置く
+https://877.design/flexbox-navigation/
+
+# 背景画像設定
 ***
-- a
+- 横幅に合わせた領域設定，ウィンドウサイズからの%設定
+https://techacademy.jp/magazine/31350
+
+- 背景画像設定基本
+https://www.sejuku.net/blog/55771
+
+- 画像をグレースケール化
+https://on-ze.com/archives/6409
+
+- ローカルのフォント使い方
+https://www.softel.co.jp/blogs/tech/archives/3676
+
 

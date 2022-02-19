@@ -1,0 +1,76 @@
+
+.debug{
+    width: 100%;
+    height: 100px;
+  
+    outline: 1px solid #f00; 
+    
+  }
+  
+.bgIMG{
+    display: flex;
+    width: 100%;
+    height: 50vh;
+  
+    background-image: url(../img/bg_img.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  
+    -webkit-filter: grayscale(60%);
+}
+  
+.layer_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    margin-left: auto;
+    margin-right: auto;
+  
+    
+    font-family: karakaze;
+    font-size: 25pt;
+    font-weight: bold;
+    
+    color: whitesmoke;
+
+}
+
+.news{
+    width: 100%;
+    height: 40vh;
+    background-color: whitesmoke;
+    position: relative;
+
+    
+    /* font-family: 'Yu Mincho'; */
+    font-weight: bold;
+    
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; */
+    
+}
+
+@font-face {
+    font-family: 'karakaze';
+    src: url(../font/karakaze-R.ttf);
+}
+
+ul li div {
+    margin:-1.6em 0 0 7em;
+}
+
+.topic{
+    position: absolute;
+    top: 20%;
+    right: 40%;
+      /* outline: 1px solid #f00;  */
+}
+
+
+/* .layer_text span{
+    background-color: rgba(255, 255, 255, 0.6);
+} */

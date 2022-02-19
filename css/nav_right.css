@@ -4,7 +4,8 @@
 }
 
 .gnavi{
-  height: 80px;
+  /* height: 80px; */
+  height: 10vh;
   background-color: #333;
 }
 
@@ -19,7 +20,8 @@
 
 .gnavi li{
   width:calc(50%/4);
-  height: 80px;
+  /* height: 80px; */
+  height: 10vh;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -43,6 +45,7 @@
 } */
 
 
+
 .gnavi li a{
   text-decoration: none;
   color: #fff;
@@ -54,13 +57,17 @@
   position: relative;
 }
 
+.active_page{
+  color: #ff7600;
+}
+
 .gnavi a:hover span::after{
   content: "";
   display: block;
   height: 4px;
   width: 100%;
   position: absolute;
-  bottom: -28px;
+  bottom: -33px;
   right: 0px;
   background-color: #ff7600;
   border-radius: 5px;
@@ -70,9 +77,10 @@
 .logo{
   /* ロゴのボックスの大きさと位置の調整 */
   width:100px;
-  height:80px;
+  /* height:80px; */
+  height: 10vh;
   margin-right:auto;
-  margin-left:10px;
+  margin-left:20px;
   /* ボックス内の縦軸中央に合わせる */
   display: flex;
   flex-direction: column;
