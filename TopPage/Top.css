@@ -46,12 +46,6 @@ body {
     padding-bottom: 20px;
 }
 
-.topic div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .topic_title{
     font-size: 20pt;
     font-weight: bold;
@@ -61,6 +55,9 @@ body {
 
 /* ---------------About------------------------- */
 .about_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     gap: 10px;
 }
 
@@ -70,3 +67,25 @@ body {
 }
 
 /* ---------------Career------------------------- */
+
+.career_content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.career_item{
+    display: flex;
+    gap: 5px;
+    background-color: gainsboro;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.career_content .career_item::after{
+    content: "aaaaaaaaaaa";
+    width: 1px;
+    height: 20px;
+    border: 1px solid black;
+}
