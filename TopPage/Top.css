@@ -71,21 +71,22 @@ body {
 .career_content{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    align-items: center;
 }
 
 
 .career_item{
     display: flex;
+    /* width: 410px; */
     gap: 5px;
     background-color: gainsboro;
     border-radius: 5px;
     padding: 10px;
 }
 
-.career_content .career_item::after{
-    content: "aaaaaaaaaaa";
-    width: 1px;
-    height: 20px;
-    border: 1px solid black;
+.career_item_line{
+    width: 2px;
+    height: 80px;
+    background-color: #333333;
+    border-radius: 5px;
 }
