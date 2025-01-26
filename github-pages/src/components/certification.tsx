@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { link } from "fs";
 
 export function Certification() {
   const certifications = [
@@ -19,21 +20,29 @@ export function Certification() {
     },
     {
       name: "GCP Associate Cloud Engineer",
-      image: "/placeholder.svg?height=150&width=150",
+      image: "/public/associate-cloud-engineer.png",
+      link: "https://www.credly.com/badges/f2470c5f-10c3-436e-810f-5dc938d396f2/public_url",
     },
     {
       name: "GCP Professional Cloud Develope",
-      image: "/placeholder.svg?height=150&width=150",
+      image: "/public/professional-cloud-developer.png",
+      link: "https://www.credly.com/badges/07070ec8-afc4-4f90-b140-7e9020e3d9c0/public_url",
     },
     {
       name: "JSTQB Foundation Level",
-      image: "/placeholder.svg?height=150&width=150",
+      image: "/public/jstqb.png",
+      link: "https://jstqb.jp/committee.html",
     },
     {
-      name: "応用情報技術者試験",
-      image: "/placeholder.svg?height=150&width=150",
+      name: "応用情報技術者試験（IPA）",
+      image: "/public/ipa.png",
+      link: "https://www.ipa.go.jp/shiken/kubun/ap.html",
     },
-    { name: "G検定", image: "/public/g-certification.png" },
+    {
+      name: "G検定（JDLA Deep Learning for GENERAL）",
+      image: "/public/g-certification.png",
+      link: "https://www.openbadge-global.com/api/v1.0/openBadge/v2/Wallet/Public/GetAssertionShare/MTJxQ29POXIzYS9FM3RmdXlrcE4vdz09",
+    },
   ];
 
   return (
@@ -55,10 +64,16 @@ export function Certification() {
           }}
         >
           {[...certifications].map((cert, index) => (
-            <a href={cert.link} target="_blank" rel="noopener noreferrer">
-              <div key={index} className="flex-shrink-0 text-center">
+            <a
+              href={cert.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-500 underline"
+              key={index}
+            >
+              <div className="flex-shrink-0 text-center">
                 <img
-                  src={cert.image || "/placeholder.svg"}
+                  src={cert.image}
                   alt={cert.name}
                   width={150}
                   height={150}

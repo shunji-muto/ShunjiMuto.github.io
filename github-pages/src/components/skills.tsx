@@ -4,12 +4,10 @@ export function Skills() {
       <h2 className="text-3xl font-bold mb-8 text-center text-blue-800">
         Skills
       </h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 ">
         <div>
-          <h3 className="text-xl font-semibold mb-4 text-blue-700">
-            Languages
-          </h3>
-          <ul className="list-disc list-inside text-blue-600">
+          <h3 className="text-xl font-semibold mb-4 ">Languages</h3>
+          <ul className="list-disc list-inside ">
             <li>C</li>
             <li>C#</li>
             <li>C++</li>
@@ -19,22 +17,20 @@ export function Skills() {
           </ul>
         </div>
         <div>
-          <h3 className="text-xl font-semibold mb-4 text-blue-700">
-            Frameworks
-          </h3>
-          <ul className="list-disc list-inside text-blue-600">
-            <li>Spring (Java)</li>
+          <h3 className="text-xl font-semibold mb-4 ">Frameworks</h3>
+          <ul className="list-disc list-inside ">
+            <li>Spring Boot</li>
             <li>Vue.js</li>
+            <li>React</li>
+            <li>Next.js</li>
           </ul>
         </div>
         <div>
-          <h3 className="text-xl font-semibold mb-4 text-blue-700">
-            Infrastructure
-          </h3>
-          <ul className="list-disc list-inside text-blue-600">
+          <h3 className="text-xl font-semibold mb-4 ">Infrastructure</h3>
+          <ul className="list-disc list-inside ">
             <li>AWS</li>
-            <li>Concourse</li>
-            <li>Kubernetes</li>
+            <li>GCP</li>
+            <li>Terraform</li>
             <li>Docker</li>
           </ul>
         </div>
