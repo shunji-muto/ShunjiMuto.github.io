@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { link } from "fs";
 
 export function Certification() {
   const certifications = [
